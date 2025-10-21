@@ -1,0 +1,48 @@
+@use './scss/reset';
+@use './scss/variables' as *;
+@use './scss/typography';
+
+body > #app > * {
+  padding: 1rem;
+}
+
+.hero {
+  background-color: $color-bg-primary;
+  color: $color-text-primary;
+
+  .location-wrapper {
+    display: flex;
+    gap: 6px;
+    color: $color-text-secondary;
+
+    .map-pin-icon {
+      max-width: 20px;
+    }
+  }
+
+  .socials {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+    gap: 1rem;
+  }
+}
+
+.about {
+  background-color: $color-bg-surface;
+  color: $color-text-secondary;
+
+  h2 {
+    margin-block: 2rem;
+  }
+
+  p {
+    text-indent: 1rem;
+    text-align: justify;
+  }
+}
+
+.tech-stack {
+  background-color: $color-bg-alt;
+  color: $color-text-primary;
+}
