@@ -32,10 +32,6 @@ body > #app > * {
   background-color: $color-bg-surface;
   color: $color-text-secondary;
 
-  h2 {
-    margin-block: 2rem;
-  }
-
   p {
     text-indent: 1rem;
     text-align: justify;
@@ -45,10 +41,6 @@ body > #app > * {
 .tech-stack {
   background-color: $color-bg-alt;
   color: $color-text-primary;
-
-  h2 {
-    margin-block: 2rem;
-  }
 
   .cards-wrapper {
     display: flex;
