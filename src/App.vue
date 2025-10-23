@@ -2,6 +2,7 @@
 import Hero from './components/Hero.vue';
 import About from './components/About.vue';
 import TechStack from './components/TechStack.vue';
+import Experience from './components/Experience.vue';
 </script>
 
 <template>
@@ -11,7 +12,7 @@ import TechStack from './components/TechStack.vue';
 
   <TechStack />
 
-  <div class="experience"></div>
+  <Experience />
 
   <div class="projects-and-courses"></div>
 
