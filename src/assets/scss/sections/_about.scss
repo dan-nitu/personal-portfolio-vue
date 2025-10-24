@@ -1,0 +1,11 @@
+@use './../variables' as *;
+
+.about {
+  background-color: $color-bg-surface;
+  color: $color-text-secondary;
+
+  p {
+    text-indent: 1rem;
+    text-align: justify;
+  }
+}

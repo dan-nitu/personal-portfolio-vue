@@ -1,0 +1,14 @@
+@use './../variables' as *;
+
+.card {
+  background-color: $color-overlay-dark;
+  border: solid 1px $color-border;
+  border-radius: 0.5rem;
+  padding: 1rem;
+
+  .card-heading {
+    color: $color-accent-secondary;
+    border-bottom: solid 1px $color-text-secondary;
+    margin-bottom: 1rem;
+  }
+}

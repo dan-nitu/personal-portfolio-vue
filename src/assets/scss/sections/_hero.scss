@@ -1,0 +1,23 @@
+@use './../variables' as *;
+
+.hero {
+  background-color: $color-bg-primary;
+  color: $color-text-primary;
+
+  .location-wrapper {
+    display: flex;
+    gap: 0.5rem;
+    color: $color-text-secondary;
+
+    .map-pin-icon {
+      max-width: 1.5rem;
+    }
+  }
+
+  .socials {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+    gap: 1rem;
+  }
+}
