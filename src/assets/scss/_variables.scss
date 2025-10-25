@@ -1,19 +1,14 @@
-// base - dark theme
+// dark theme
 $color-bg-primary: #0b0f1a; // Forge Black - Main background
 $color-bg-surface: #121826; // Charcoal Steel - Surface elements
 $color-bg-alt: #1f2633; // Ash Slate - Alternate surface
 $color-border: #2b2f3a; // Iron Vein - Dividers, borders
 
-// text
 $color-text-primary: #edeef2; // Frost White - Main text
 $color-text-secondary: #b0b4be; // Smoke Gray - Secondary text
 $color-text-muted: #787d87; // Haze Gray - Muted/disabled
 
-// accent
 $color-accent-primary: #00d1b2; // Arcane Teal - CTAs, highlights
 $color-accent-secondary: #ffb84c; // Ember Gold - Alternate accent
 
-// utility
 $color-overlay-dark: rgba(0, 0, 0, 0.5); // Overlay for modals
-$color-input-bg: #1a1f2b; // Background for input fields
-$color-focus-ring: rgba(0, 209, 178, 0.5); // Teal focus ring
