@@ -4,6 +4,7 @@ import About from './components/About.vue';
 import TechStack from './components/TechStack.vue';
 import Experience from './components/Experience.vue';
 import ProjectsAndCourses from './components/ProjectsAndCourses.vue';
+import Footer from './components/Footer.vue';
 </script>
 
 <template>
@@ -12,4 +13,6 @@ import ProjectsAndCourses from './components/ProjectsAndCourses.vue';
   <TechStack />
   <Experience />
   <ProjectsAndCourses />
+
+  <Footer />
 </template>
