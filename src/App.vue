@@ -8,14 +8,8 @@ import ProjectsAndCourses from './components/ProjectsAndCourses.vue';
 
 <template>
   <Hero />
-
   <About />
-
   <TechStack />
-
   <Experience />
-
   <ProjectsAndCourses />
-
-  <div class="more-than-just-a-dev"></div>
 </template>
