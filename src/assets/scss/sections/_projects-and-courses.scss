@@ -91,54 +91,6 @@
         justify-content: space-around;
         margin-top: 1.5rem;
       }
-
-      a {
-        text-decoration: none;
-        font-weight: 700;
-        color: $color-bg-primary;
-        border-radius: 0.5rem;
-        padding: 0.5rem 1rem;
-
-        display: flex;
-        gap: 0.5rem;
-        align-items: center;
-
-        &:hover {
-          &::after {
-            scale: 1.5;
-            rotate: 360deg;
-          }
-        }
-
-        &::after {
-          content: '';
-
-          background-repeat: no-repeat;
-          background-size: contain;
-
-          transition: all 0.5s ease-in-out;
-        }
-
-        &.demo {
-          background-color: $color-accent-secondary;
-
-          &::after {
-            height: 1.5rem;
-            width: 1.5rem;
-            background-image: url('../../images/videogame-asset.svg');
-          }
-        }
-
-        &.github {
-          background-color: $color-accent-primary;
-
-          &::after {
-            height: 1rem;
-            width: 1rem;
-            background-image: url('../../images/github-mark.svg');
-          }
-        }
-      }
     }
   }
 }

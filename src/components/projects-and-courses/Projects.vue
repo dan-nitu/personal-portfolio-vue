@@ -72,14 +72,14 @@ const projects = [
           <div class="buttons-wrapper">
             <a
               :href="project.demo"
-              class="demo"
+              class="button demo"
               target="_blank"
               rel="noopener noreferrer"
               >Demo</a
             >
             <a
               :href="project.github"
-              class="github"
+              class="button github"
               target="_blank"
               rel="noopener noreferrer"
               >Github</a
