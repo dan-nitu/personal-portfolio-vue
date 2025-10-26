@@ -25,32 +25,6 @@
         border-bottom: solid 1px $color-text-primary;
         margin-bottom: 1rem;
       }
-
-      ul {
-        list-style: none;
-
-        li {
-          text-indent: 2rem;
-          position: relative;
-          margin-bottom: 0.75rem;
-
-          &::before {
-            content: '';
-            background-image: url('/src/assets/images/technology-icons/code-bracket-icon.svg');
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: contain;
-
-            height: 1.6em;
-            width: 1em;
-
-            position: absolute;
-            display: flex;
-            align-items: center;
-            left: 0.5rem;
-          }
-        }
-      }
     }
   }
 

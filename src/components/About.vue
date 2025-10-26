@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="about" id="about">
     <h2>About me</h2>
     <p>
       I specialize in building responsive user interfaces, implementing design

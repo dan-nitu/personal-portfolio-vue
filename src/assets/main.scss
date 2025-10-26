@@ -2,7 +2,9 @@
 @use './scss/variables' as *;
 @use './scss/typography';
 
+@use './scss/components/navigation';
 @use './scss/components/card';
+@use './scss/components/ul';
 @use './scss/components/button';
 
 @use './scss/sections/hero';
@@ -11,6 +13,10 @@
 @use './scss/sections/experience';
 @use './scss/sections/projects-and-courses';
 @use './scss/sections/footer';
+
+html {
+  scroll-behavior: smooth;
+}
 
 body > #app > * {
   padding: 1rem;

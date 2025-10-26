@@ -1,0 +1,67 @@
+@use './../variables' as *;
+
+nav {
+  background-color: $color-bg-primary;
+
+  span {
+    color: $color-accent-primary;
+
+    &::before {
+      content: '<';
+      color: $color-text-muted;
+    }
+    &::after {
+      content: '/>';
+      color: $color-text-muted;
+    }
+  }
+
+  input {
+    display: none;
+  }
+
+  input:not(:checked) ~ ul {
+    display: none;
+  }
+
+  input:checked ~ label,
+  input:checked ~ span {
+    position: fixed;
+    z-index: 100;
+  }
+
+  label {
+    position: absolute;
+    right: 1rem;
+
+    &::before {
+      content: '';
+      background-image: url('/src/assets/images/hamburger-icon.svg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      height: 1.5rem;
+      width: 1rem;
+
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  ul {
+    background-color: $color-bg-primary;
+    position: fixed;
+    inset: 0;
+    padding-top: 3.5rem;
+    padding-left: 0.5rem;
+    height: 100vh;
+
+    li {
+      a {
+        color: $color-text-primary;
+        text-decoration: none;
+      }
+    }
+  }
+}
