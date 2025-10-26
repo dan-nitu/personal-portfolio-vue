@@ -5,7 +5,7 @@ import LinkedinLogoIcon from './icons/LinkedinLogoIcon.vue';
 </script>
 
 <template>
-  <div class="hero">
+  <section class="hero">
     <h1>Hi, I'm Dan 👋</h1>
     <h4>
       I'm a web developer focused on frontend technologies, with experience in
@@ -28,5 +28,5 @@ import LinkedinLogoIcon from './icons/LinkedinLogoIcon.vue';
         <LinkedinLogoIcon
       /></a>
     </div>
-  </div>
+  </section>
 </template>

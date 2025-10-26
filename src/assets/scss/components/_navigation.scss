@@ -1,7 +1,11 @@
 @use './../variables' as *;
 
 nav {
+  z-index: 1000;
   background-color: $color-bg-primary;
+  position: fixed;
+  width: 100%;
+  border-bottom: solid 1px $color-border;
 
   span {
     color: $color-accent-primary;

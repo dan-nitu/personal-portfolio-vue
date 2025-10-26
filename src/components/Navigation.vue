@@ -9,16 +9,24 @@ const closeNav = () => {
 
 const scrollToSection = (sectionId) => {
   const target = document.getElementById(sectionId);
-  const offset = 50;
+  const offset = 55;
   if (target) {
     const targetPosition =
       target.getBoundingClientRect().top + window.pageYOffset;
     window.scrollTo({
-      top: targetPosition + offset,
+      top: targetPosition - offset,
       behavior: 'smooth',
     });
   }
 
+  closeNav();
+};
+
+const scrollToTop = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth',
+  });
   closeNav();
 };
 
@@ -40,7 +48,7 @@ onBeforeUnmount(() => {
     <input type="checkbox" id="toggler" v-model="isNavOpen" name="toggler" />
     <label for="toggler"></label>
 
-    <span> DanNițu </span>
+    <span @click="scrollToTop"> DanNițu </span>
 
     <ul>
       <li>

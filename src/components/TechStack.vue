@@ -9,7 +9,7 @@ import OtherTools from './tech-stack-and-skills/OtherTools.vue';
 </script>
 
 <template>
-  <div class="tech-stack" id="tech-stack">
+  <section class="tech-stack" id="tech-stack">
     <h2>Tech Stack 'n' Skills</h2>
 
     <div class="cards-wrapper">
@@ -21,5 +21,5 @@ import OtherTools from './tech-stack-and-skills/OtherTools.vue';
       <TaskManagement />
       <OtherTools />
     </div>
-  </div>
+  </section>
 </template>

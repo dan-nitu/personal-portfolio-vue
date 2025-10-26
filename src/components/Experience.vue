@@ -1,5 +1,5 @@
 <template>
-  <div class="experience" id="experience">
+  <section class="experience" id="experience">
     <h2>Experience</h2>
 
     <div class="card">
@@ -101,5 +101,5 @@
     <a href="/cv/DanNitu_FrontendDeveloper_Resume.pdf" download
       >Get the full story — download my CV!</a
     >
-  </div>
+  </section>
 </template>

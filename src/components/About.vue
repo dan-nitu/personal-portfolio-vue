@@ -1,5 +1,5 @@
 <template>
-  <div class="about" id="about">
+  <section class="about" id="about">
     <h2>About me</h2>
     <p>
       I specialize in building responsive user interfaces, implementing design
@@ -29,5 +29,5 @@
       with, brings a friendly vibe to the team and can help turn beautiful
       designs into smooth user experiences.
     </p>
-  </div>
+  </section>
 </template>

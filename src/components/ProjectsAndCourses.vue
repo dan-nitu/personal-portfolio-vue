@@ -5,11 +5,11 @@ import OtherProjects from './projects-and-courses/OtherProjects.vue';
 </script>
 
 <template>
-  <div class="projects-and-courses" id="projects">
+  <section class="projects-and-courses" id="projects">
     <h2>Projects 'n' Courses</h2>
 
     <Projects />
     <Courses />
     <OtherProjects />
-  </div>
+  </section>
 </template>
