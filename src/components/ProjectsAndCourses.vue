@@ -8,8 +8,10 @@ import OtherProjects from './projects-and-courses/OtherProjects.vue';
   <section class="projects-and-courses" id="projects">
     <h2>Projects 'n' Courses</h2>
 
-    <Projects />
-    <Courses />
-    <OtherProjects />
+    <div class="categories-wrapper">
+      <Projects />
+      <Courses />
+      <OtherProjects />
+    </div>
   </section>
 </template>

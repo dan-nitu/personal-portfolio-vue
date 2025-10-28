@@ -4,11 +4,7 @@ footer {
   background-color: $color-border;
   color: $color-text-primary;
 
-  display: flex;
-  flex-direction: column;
-  gap: $fluid-1-2;
-
-  h4 {
-    margin-top: $fluid-2-4;
+  @media (min-width: $breakpoint-md) {
+    text-align: center;
   }
 }

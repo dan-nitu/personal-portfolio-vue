@@ -15,21 +15,21 @@ import LinkedinLogoIcon from './icons/LinkedinLogoIcon.vue';
       </h4>
     </div>
 
-    <div class="location-wrapper">
-      <MapPinIcon /> Cluj-Napoca, Cluj, Romania
-    </div>
+    <div class="wrapper">
+      <div class="location"><MapPinIcon /> Cluj-Napoca, Cluj, Romania</div>
 
-    <div class="socials">
-      <a
-        href="https://github.com/dan-nitu"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <GithubMarkWhiteIcon
-      /></a>
-      <a href="https://www.linkedin.com/in/dan-nitu/" target="_blank">
-        <LinkedinLogoIcon
-      /></a>
+      <div class="socials">
+        <a
+          href="https://github.com/dan-nitu"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <GithubMarkWhiteIcon
+        /></a>
+        <a href="https://www.linkedin.com/in/dan-nitu/" target="_blank">
+          <LinkedinLogoIcon
+        /></a>
+      </div>
     </div>
   </section>
 </template>

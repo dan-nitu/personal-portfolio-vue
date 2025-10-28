@@ -20,10 +20,13 @@ html {
 
 section,
 footer {
-  padding: $fluid-1-2;
+  display: grid;
+  padding: $fluid-2-4 $fluid-1-2;
+  gap: $fluid-1-2;
 
   > * {
     max-width: $breakpoint-xl;
+    width: 100%;
     margin-inline: auto;
   }
 }

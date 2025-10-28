@@ -5,7 +5,16 @@
   color: $color-text-primary;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+
+  .categories-wrapper {
+    display: grid;
+    gap: $fluid-2-4;
+
+    > div {
+      display: grid;
+      gap: $fluid-1-2;
+    }
+  }
 
   .cards-wrapper {
     display: grid;
@@ -32,9 +41,16 @@
     }
   }
 
+  .other-projects {
+    .cards-wrapper {
+      @media (min-width: $breakpoint-xl) {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+  }
+
   .card {
     padding: 0;
-    border-radius: 1rem;
     position: relative;
 
     p {

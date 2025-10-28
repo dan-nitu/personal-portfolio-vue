@@ -10,7 +10,9 @@ import OtherTools from './tech-stack-and-skills/OtherTools.vue';
 
 <template>
   <section class="tech-stack" id="tech-stack">
-    <h2>Tech Stack 'n' Skills</h2>
+    <div>
+      <h2>Tech Stack 'n' Skills</h2>
+    </div>
 
     <div class="cards-wrapper">
       <Frontend />
