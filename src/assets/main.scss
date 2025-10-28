@@ -20,7 +20,7 @@ html {
 
 section,
 footer {
-  padding: 1rem;
+  padding: $fluid-1-2;
 
   > * {
     max-width: $breakpoint-xl;

@@ -4,7 +4,7 @@
   background-color: $color-overlay-dark;
   border: solid 1px $color-border;
   border-radius: 0.5rem;
-  padding: 1rem;
+  padding: $fluid-1-2;
 
   display: flex;
   flex-direction: column;
@@ -87,6 +87,6 @@
   .card-heading {
     color: $color-accent-secondary;
     border-bottom: solid 1px $color-text-secondary;
-    margin-bottom: 1rem;
+    margin-bottom: $fluid-1-2;
   }
 }

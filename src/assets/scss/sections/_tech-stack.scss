@@ -6,13 +6,13 @@
 
   .cards-wrapper {
     display: grid;
-    gap: 1rem;
+    gap: $fluid-1-2;
   }
 
   .showcase {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+    gap: $fluid-1-2;
     text-align: center;
 
     > div {

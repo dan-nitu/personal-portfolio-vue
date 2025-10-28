@@ -13,6 +13,10 @@ $color-accent-secondary: #ffb84c; // Ember Gold - Alternate accent
 
 $color-overlay-dark: rgba(0, 0, 0, 0.5); // Overlay for modals
 
+// spacings
+$fluid-1-2: clamp(1rem, 0.5909rem + 1.8182vw, 2rem);
+$fluid-2-4: clamp(2rem, 1.1818rem + 3.6364vw, 4rem);
+
 // breakpoints
 $breakpoint-xs: 320px;
 $breakpoint-sm: 480px;
