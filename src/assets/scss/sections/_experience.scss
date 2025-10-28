@@ -8,6 +8,32 @@
   flex-direction: column;
   gap: 2rem;
 
+  .cards-wrapper {
+    display: grid;
+    gap: 1rem;
+  }
+
+  @media (min-width: $breakpoint-xl) {
+    .cards-wrapper {
+      grid-template-columns: 1fr 1fr;
+
+      .card {
+        justify-content: start;
+
+        .logo-wrapper {
+          flex-direction: column;
+
+          img {
+            display: flex;
+            margin: auto;
+            max-height: fit-content;
+            max-width: calc(100% - 8rem);
+          }
+        }
+      }
+    }
+  }
+
   .card {
     display: flex;
     flex-direction: column;
@@ -16,7 +42,13 @@
     .logo-wrapper {
       display: flex;
       gap: 1rem;
+      margin-block: 2rem;
       align-items: center;
+      justify-content: space-around;
+
+      img {
+        max-height: 100px;
+      }
     }
 
     .content-wrapper {
@@ -24,6 +56,11 @@
         color: $color-accent-secondary;
         border-bottom: solid 1px $color-text-primary;
         margin-bottom: 1rem;
+
+        @media (min-width: $breakpoint-md) {
+          display: flex;
+          justify-content: space-between;
+        }
       }
     }
   }

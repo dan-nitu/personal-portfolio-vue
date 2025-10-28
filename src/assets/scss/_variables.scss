@@ -12,3 +12,12 @@ $color-accent-primary: #00d1b2; // Arcane Teal - CTAs, highlights
 $color-accent-secondary: #ffb84c; // Ember Gold - Alternate accent
 
 $color-overlay-dark: rgba(0, 0, 0, 0.5); // Overlay for modals
+
+// breakpoints
+$breakpoint-xs: 320px;
+$breakpoint-sm: 480px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 1024px;
+$breakpoint-xl: 1280px;
+$breakpoint-xxl: 1440px;
+$breakpoint-xxxl: 1600px;

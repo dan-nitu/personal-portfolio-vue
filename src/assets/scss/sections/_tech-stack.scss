@@ -5,8 +5,7 @@
   color: $color-text-primary;
 
   .cards-wrapper {
-    display: flex;
-    flex-direction: column;
+    display: grid;
     gap: 1rem;
   }
 
@@ -24,6 +23,84 @@
       svg {
         width: 4rem;
         height: 4rem;
+      }
+    }
+  }
+
+  .cards-wrapper {
+    @media (min-width: $breakpoint-md) {
+      grid-template-columns: repeat(2, 1fr);
+
+      .card {
+        &:nth-child(1),
+        &:nth-child(2) {
+          grid-column: span 2;
+
+          .showcase {
+            grid-template-columns: repeat(5, 1fr);
+          }
+        }
+
+        &:nth-child(5) {
+          grid-column: span 2;
+          .showcase {
+            grid-template-columns: repeat(5, 1fr);
+          }
+        }
+
+        &:nth-child(6),
+        &:nth-child(7) {
+          .showcase {
+            grid-template-columns: repeat(2, 1fr);
+          }
+        }
+      }
+    }
+
+    @media (min-width: $breakpoint-lg) {
+      grid-template-columns: repeat(8, 1fr);
+
+      .card {
+        &:nth-child(1),
+        &:nth-child(2) {
+          grid-column: span 8;
+
+          .showcase {
+            grid-template-columns: repeat(6, 1fr);
+          }
+        }
+
+        &:nth-child(3),
+        &:nth-child(4) {
+          grid-column: span 3;
+        }
+
+        &:nth-child(5) {
+          grid-column: span 2;
+          .showcase {
+            grid-template-columns: repeat(2, 1fr);
+          }
+        }
+
+        &:nth-child(6),
+        &:nth-child(7) {
+          grid-column: span 4;
+
+          .showcase {
+            grid-template-columns: repeat(4, 1fr);
+          }
+        }
+      }
+    }
+
+    @media (min-width: $breakpoint-xl) {
+      .card {
+        &:nth-child(1),
+        &:nth-child(2) {
+          .showcase {
+            grid-template-columns: repeat(9, 1fr);
+          }
+        }
       }
     }
   }

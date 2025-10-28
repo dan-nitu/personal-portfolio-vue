@@ -7,6 +7,11 @@ nav {
   width: 100%;
   border-bottom: solid 1px $color-border;
 
+  padding: 1rem;
+
+  display: flex;
+  justify-content: space-between;
+
   span {
     color: $color-accent-primary;
 
@@ -26,6 +31,11 @@ nav {
 
   input:not(:checked) ~ ul {
     display: none;
+
+    @media (min-width: $breakpoint-xxl) {
+      display: flex;
+      gap: 2rem;
+    }
   }
 
   input:checked ~ label,
@@ -37,6 +47,10 @@ nav {
   label {
     position: absolute;
     right: 1rem;
+
+    @media (min-width: $breakpoint-xxl) {
+      display: none;
+    }
 
     &::before {
       content: '';
@@ -61,10 +75,25 @@ nav {
     padding-left: 0.5rem;
     height: 100vh;
 
+    @media (min-width: $breakpoint-xxl) {
+      position: relative;
+      height: auto;
+      padding: 0;
+    }
+
     li {
+      @media (min-width: $breakpoint-xxl) {
+        margin-bottom: 0;
+      }
+
       a {
         color: $color-text-primary;
         text-decoration: none;
+
+        &:hover {
+          color: $color-accent-secondary;
+          text-decoration: underline;
+        }
       }
     }
   }

@@ -19,7 +19,11 @@ html {
 }
 
 section,
-footer,
-nav {
+footer {
   padding: 1rem;
+
+  > * {
+    max-width: $breakpoint-xl;
+    margin-inline: auto;
+  }
 }

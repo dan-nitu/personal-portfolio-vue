@@ -7,10 +7,13 @@ import LinkedinLogoIcon from './icons/LinkedinLogoIcon.vue';
 <template>
   <section class="hero">
     <h1>Hi, I'm Dan 👋</h1>
-    <h4>
-      I'm a web developer focused on frontend technologies, with experience in
-      PHP and Vue.js.
-    </h4>
+
+    <div>
+      <h4>
+        I'm a web developer focused on frontend technologies, with experience in
+        PHP and Vue.js.
+      </h4>
+    </div>
 
     <div class="location-wrapper">
       <MapPinIcon /> Cluj-Napoca, Cluj, Romania

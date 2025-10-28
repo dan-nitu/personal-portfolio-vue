@@ -5,6 +5,10 @@
   color: $color-text-primary;
   padding-top: 80px;
 
+  h4 {
+    max-width: 700px;
+  }
+
   .location-wrapper {
     display: flex;
     gap: 0.5rem;

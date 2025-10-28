@@ -6,6 +6,84 @@
   border-radius: 0.5rem;
   padding: 1rem;
 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+
+  &.wide {
+    @media (min-width: $breakpoint-md) {
+      flex-direction: row;
+
+      > div {
+        flex-basis: 50%;
+      }
+
+      img {
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+
+        aspect-ratio: 16/9;
+        border-radius: 0.5rem;
+        object-fit: cover;
+        width: 100%;
+      }
+
+      .card-body {
+        h5,
+        p {
+          text-align: left;
+        }
+      }
+    }
+
+    @media (min-width: $breakpoint-lg) {
+      .image-wrapper {
+        flex-basis: 60%;
+        img {
+          max-height: 200px;
+        }
+      }
+    }
+
+    @media (min-width: $breakpoint-xl) {
+      .image-wrapper {
+        flex-basis: 30%;
+        img {
+          max-height: unset;
+          height: 100%;
+        }
+      }
+
+      > div {
+        flex-grow: 1;
+      }
+    }
+  }
+
+  .image-wrapper {
+    position: relative;
+  }
+
+  .card-body {
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    h5,
+    p {
+      text-align: center;
+    }
+
+    .buttons-wrapper {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 1.5rem;
+    }
+  }
+
   .card-heading {
     color: $color-accent-secondary;
     border-bottom: solid 1px $color-text-secondary;

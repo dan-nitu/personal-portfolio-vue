@@ -1,6 +1,7 @@
 <template>
   <section class="about" id="about">
     <h2>About me</h2>
+
     <p>
       I specialize in building responsive user interfaces, implementing design
       systems and style guides and developing single-page applications using

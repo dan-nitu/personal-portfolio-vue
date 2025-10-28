@@ -74,9 +74,11 @@ const courses = [
     <h4>Courses and tutorials I've completed to sharpen my skills.</h4>
 
     <div class="cards-wrapper">
-      <div v-for="course in courses" :key="course.id" class="card">
-        <img :src="course.screenshot" :alt="course.title" />
-        <span :class="`technology ${course.technology}`"></span>
+      <div v-for="course in courses" :key="course.id" class="card wide">
+        <div class="image-wrapper">
+          <img :src="course.screenshot" :alt="course.title" />
+          <span :class="`technology ${course.technology}`"></span>
+        </div>
 
         <div class="card-body">
           <h5>
