@@ -14,19 +14,28 @@
 
   @media (min-width: $breakpoint-xl) {
     .cards-wrapper {
-      grid-template-columns: 1fr 1fr;
-
       .card {
         justify-content: start;
+        gap: 1rem;
 
         .logo-wrapper {
-          flex-direction: column;
+          justify-content: left;
+          margin: 0;
 
           img {
-            display: flex;
-            margin: auto;
-            max-height: fit-content;
-            max-width: calc(100% - 8rem);
+            max-width: 150px;
+            border-radius: 0;
+          }
+        }
+
+        .heading {
+          font-size: $fluid-1-2;
+          font-weight: 500;
+          align-items: baseline;
+
+          .period {
+            height: fit-content;
+            font-size: 1.1rem;
           }
         }
       }
