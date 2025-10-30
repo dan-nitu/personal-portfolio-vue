@@ -6,4 +6,8 @@
       happy to chat.
     </p>
   </footer>
+
+  <div class="copyright">
+    © {{ new Date().getFullYear() }} Dan Nițu. All rights reserved.
+  </div>
 </template>

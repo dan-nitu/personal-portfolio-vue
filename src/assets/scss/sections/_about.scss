@@ -4,8 +4,35 @@
   background-color: $color-bg-surface;
   color: $color-text-secondary;
 
+  .content-wrapper {
+    display: grid;
+    gap: $fluid-1-2;
+
+    @media (min-width: $breakpoint-lg) {
+      grid-template-columns: 4fr 2fr;
+    }
+    @media (min-width: $breakpoint-xl) {
+      grid-template-columns: 4fr 1fr;
+    }
+
+    > div {
+      display: grid;
+      gap: $fluid-1-2;
+    }
+  }
+
   p {
     text-indent: $fluid-1-2;
     text-align: justify;
+  }
+
+  img {
+    display: none;
+  }
+
+  @media (min-width: $breakpoint-lg) {
+    img {
+      display: block;
+    }
   }
 }
