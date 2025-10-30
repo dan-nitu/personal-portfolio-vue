@@ -36,7 +36,7 @@
             </li>
             <li>
               Resolved Google Ads disapproval issues related to tracking, domain
-              verification and policy violations — improving campaign uptime and
+              verification and policy violations improving campaign uptime and
               performance.
             </li>
             <li>
@@ -101,7 +101,7 @@
     </div>
 
     <a href="/cv/DanNitu_FrontendDeveloper_Resume.pdf" download
-      >Get the full story — download my CV!</a
+      >Get the full story - download my CV!</a
     >
   </section>
 </template>
