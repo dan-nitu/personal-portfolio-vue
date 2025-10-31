@@ -100,8 +100,8 @@
       </div>
     </div>
 
-    <a href="/cv/DanNitu-FrontendDeveloper-Resume.pdf" download
-      >Get the full story - download my CV!</a
-    >
+    <a href="/cv/DanNitu-FrontendDeveloper-Resume.pdf" download>
+      Get the full story - download my CV!
+    </a>
   </section>
 </template>
