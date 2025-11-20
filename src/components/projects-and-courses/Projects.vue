@@ -1,4 +1,5 @@
 <script setup>
+import healthyRecipeFinder from '@/assets/images/projects/healthy-recipe-finder.png';
 import weatherNow from '@/assets/images/projects/weather-now.png';
 import spaceTourismWebsite from '@/assets/images/projects/space-tourism-website.png';
 import rockPaperScissors from '@/assets/images/projects/rock-paper-scissors.png';
@@ -8,42 +9,51 @@ import weatherApp from '@/assets/images/projects/weather-app.png';
 const projects = [
   {
     id: 1,
+    title: 'Healthy Recipe Finder',
+    description: '(A Frontend Mentor Premium Challenge)',
+    technology: 'vuejs',
+    screenshot: healthyRecipeFinder,
+    demo: 'https://healthy-recipe-finder-frontend-mentor.vercel.app/',
+    github: 'https://github.com/dan-nitu/recipe-finder-website',
+  },
+  {
+    id: 2,
     title: 'Weather Now',
-    description: '(A Frontend Mentor challenge)',
+    description: '(A Frontend Mentor Challenge)',
     technology: 'vuejs',
     screenshot: weatherNow,
     demo: 'https://frontend-mentor-weather-now-app.vercel.app/',
     github: 'https://github.com/dan-nitu/frontend-mentor-weather-now-app',
   },
   {
-    id: 2,
+    id: 3,
     title: 'Space Tourism Website',
-    description: '(A Frontend Mentor challenge)',
+    description: '(A Frontend Mentor Challenge)',
     technology: 'html',
     screenshot: spaceTourismWebsite,
     demo: 'https://dn-space-tourism-website.vercel.app/',
     github: 'https://github.com/dan-nitu/space-tourism-website/tree/main',
   },
   {
-    id: 3,
+    id: 4,
     title: 'Rock Paper Scissors',
-    description: '(A Frontend Mentor challenge)',
+    description: '(A Frontend Mentor Challenge)',
     technology: 'javascript',
     screenshot: rockPaperScissors,
     demo: 'https://dn-js-rock-paper-scissors.vercel.app/',
     github: 'https://github.com/dan-nitu/rock-paper-scissors',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Countries APP',
-    description: '(A Frontend Mentor challenge)',
+    description: '(A Frontend Mentor Challenge)',
     technology: 'react',
     screenshot: countriesApp,
     demo: 'https://dn-react-countries-app.vercel.app/',
     github: 'https://github.com/dan-nitu/countries-app-react',
   },
   {
-    id: 5,
+    id: 6,
     title: 'Weather APP',
     technology: 'react',
     screenshot: weatherApp,
