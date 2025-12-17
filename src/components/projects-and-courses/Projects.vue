@@ -1,4 +1,5 @@
 <script setup>
+import hangmanGame from '@/assets/images/projects/hangman-game.png';
 import healthyRecipeFinder from '@/assets/images/projects/healthy-recipe-finder.png';
 import weatherNow from '@/assets/images/projects/weather-now.png';
 import spaceTourismWebsite from '@/assets/images/projects/space-tourism-website.png';
@@ -8,7 +9,16 @@ import weatherApp from '@/assets/images/projects/weather-app.png';
 
 const projects = [
   {
-    id: 1,
+    id: 7,
+    title: 'Hangman Game',
+    description: '(A Frontend Mentor Premium Challenge)',
+    technology: 'vuejs',
+    screenshot: hangmanGame,
+    demo: 'https://hangman-game-frontend-mentor.vercel.app/',
+    github: 'https://github.com/dan-nitu/hangman-game',
+  },
+  {
+    id: 6,
     title: 'Healthy Recipe Finder',
     description: '(A Frontend Mentor Premium Challenge)',
     technology: 'vuejs',
@@ -17,7 +27,7 @@ const projects = [
     github: 'https://github.com/dan-nitu/recipe-finder-website',
   },
   {
-    id: 2,
+    id: 5,
     title: 'Weather Now',
     description: '(A Frontend Mentor Challenge)',
     technology: 'vuejs',
@@ -26,7 +36,7 @@ const projects = [
     github: 'https://github.com/dan-nitu/frontend-mentor-weather-now-app',
   },
   {
-    id: 3,
+    id: 4,
     title: 'Space Tourism Website',
     description: '(A Frontend Mentor Challenge)',
     technology: 'html',
@@ -35,7 +45,7 @@ const projects = [
     github: 'https://github.com/dan-nitu/space-tourism-website/tree/main',
   },
   {
-    id: 4,
+    id: 3,
     title: 'Rock Paper Scissors',
     description: '(A Frontend Mentor Challenge)',
     technology: 'javascript',
@@ -44,7 +54,7 @@ const projects = [
     github: 'https://github.com/dan-nitu/rock-paper-scissors',
   },
   {
-    id: 5,
+    id: 2,
     title: 'Countries APP',
     description: '(A Frontend Mentor Challenge)',
     technology: 'react',
@@ -53,7 +63,7 @@ const projects = [
     github: 'https://github.com/dan-nitu/countries-app-react',
   },
   {
-    id: 6,
+    id: 1,
     title: 'Weather APP',
     technology: 'react',
     screenshot: weatherApp,

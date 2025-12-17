@@ -8,6 +8,7 @@ import ReactLogoIcon from '@/components/icons/ReactLogoIcon.vue';
 import JQueryLogoIcon from '@/components/icons/JQueryLogoIcon.vue';
 import ReduxLogoIcon from '@/components/icons/ReduxLogoIcon.vue';
 import VuexLogoIcon from '@/components/icons/VuexLogoIcon.vue';
+import PiniaLogoIcon from '../icons/PiniaLogoIcon.vue';
 import BootstrapLogoIcon from '@/components/icons/BootstrapLogoIcon.vue';
 import TailwindLogoIcon from '@/components/icons/TailwindLogoIcon.vue';
 import NPMLogoIcon from '@/components/icons/NPMLogoIcon.vue';
@@ -55,6 +56,10 @@ import MobileFirstLogoIcon from '@/components/icons/MobileFirstLogoIcon.vue';
       <div>
         <VuexLogoIcon />
         <span>Vuex</span>
+      </div>
+      <div>
+        <PiniaLogoIcon />
+        <span>Pinia</span>
       </div>
       <div>
         <BootstrapLogoIcon />
