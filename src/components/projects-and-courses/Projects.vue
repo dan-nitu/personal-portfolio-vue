@@ -1,4 +1,5 @@
 <script setup>
+import manageLandingPage from '@/assets/images/projects/manage-landing-page.png';
 import hangmanGame from '@/assets/images/projects/hangman-game.png';
 import healthyRecipeFinder from '@/assets/images/projects/healthy-recipe-finder.png';
 import weatherNow from '@/assets/images/projects/weather-now.png';
@@ -8,6 +9,15 @@ import countriesApp from '@/assets/images/projects/countries-app.png';
 import weatherApp from '@/assets/images/projects/weather-app.png';
 
 const projects = [
+  {
+    id: 7,
+    title: 'Manage Landing Page',
+    description: '(A Frontend Mentor Challenge)',
+    technology: 'scss',
+    screenshot: manageLandingPage,
+    demo: 'https://manage-lp-frontend-mentor.vercel.app/',
+    github: 'https://github.com/dan-nitu/manage-landing-page',
+  },
   {
     id: 7,
     title: 'Hangman Game',
