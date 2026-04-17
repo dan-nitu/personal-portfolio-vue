@@ -48,8 +48,8 @@ const otherProjects = [
     title: 'React Quiz',
     technology: 'react',
     screenshot: reactQuiz,
-    demo: '',
-    github: '',
+    demo: 'https://react-quiz-rtcg.vercel.app/',
+    github: 'https://github.com/dan-nitu/react-quiz-react-the-complete-guide',
   },
   {
     id: 14,
