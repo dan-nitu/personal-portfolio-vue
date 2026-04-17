@@ -56,8 +56,9 @@ const otherProjects = [
     title: 'Investment Calculator',
     technology: 'react',
     screenshot: investmentCalculator,
-    demo: '',
-    github: '',
+    demo: 'https://investment-calculator-rtcg.vercel.app/',
+    github:
+      'https://github.com/dan-nitu/investment-calculator-react-the-complete-guide',
   },
   {
     id: 13,
