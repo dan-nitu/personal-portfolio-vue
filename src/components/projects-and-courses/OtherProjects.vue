@@ -40,8 +40,8 @@ const otherProjects = [
     title: 'Place Picker',
     technology: 'react',
     screenshot: placePicker,
-    demo: '',
-    github: '',
+    demo: 'https://place-picker-rctg.vercel.app/',
+    github: 'https://github.com/dan-nitu/place-picker-react-the-complete-guide',
   },
   {
     id: 15,
