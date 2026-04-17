@@ -1,4 +1,11 @@
 <script setup>
+import ticTacToe from '@/assets/images/projects/tic-tac-toe.PNG';
+import theAlmostFinalCountdown from '@/assets/images/projects/the-almost-final-countdown.PNG';
+import placePicker from '@/assets/images/projects/place-picker.PNG';
+import reactQuiz from '@/assets/images/projects/react-quiz.PNG';
+import investmentCalculator from '@/assets/images/projects/investment-calculator.PNG';
+import elegantContext from '@/assets/images/projects/elegant-context.PNG';
+import projectManagementApp from '@/assets/images/projects/project-management-app.PNG';
 import houseMarketplace from '@/assets/images/projects/house-marketplace.PNG';
 import githubFinder from '@/assets/images/projects/github-finder.png';
 import weatherJS from '@/assets/images/projects/weatherjs.PNG';
@@ -22,57 +29,51 @@ const otherProjects = [
   },
   {
     id: 17,
-    title: 'House Marketplace',
+    title: 'The Almost Final Countdown',
     technology: 'react',
-    screenshot: houseMarketplace,
-    demo: 'https://dn-react-house-marketplace.vercel.app/',
-    github:
-      'https://github.com/dan-nitu/house-marketplace-react-front-to-back-2022',
+    screenshot: theAlmostFinalCountdown,
+    demo: '',
+    github: '',
   },
   {
     id: 16,
-    title: 'House Marketplace',
+    title: 'Place Picker',
     technology: 'react',
-    screenshot: houseMarketplace,
-    demo: 'https://dn-react-house-marketplace.vercel.app/',
-    github:
-      'https://github.com/dan-nitu/house-marketplace-react-front-to-back-2022',
+    screenshot: placePicker,
+    demo: '',
+    github: '',
   },
   {
     id: 15,
-    title: 'House Marketplace',
+    title: 'React Quiz',
     technology: 'react',
-    screenshot: houseMarketplace,
-    demo: 'https://dn-react-house-marketplace.vercel.app/',
-    github:
-      'https://github.com/dan-nitu/house-marketplace-react-front-to-back-2022',
+    screenshot: reactQuiz,
+    demo: '',
+    github: '',
   },
   {
     id: 14,
-    title: 'House Marketplace',
+    title: 'Investment Calculator',
     technology: 'react',
-    screenshot: houseMarketplace,
-    demo: 'https://dn-react-house-marketplace.vercel.app/',
-    github:
-      'https://github.com/dan-nitu/house-marketplace-react-front-to-back-2022',
+    screenshot: investmentCalculator,
+    demo: '',
+    github: '',
   },
   {
     id: 13,
-    title: 'House Marketplace',
+    title: 'Elegant Context',
     technology: 'react',
-    screenshot: houseMarketplace,
-    demo: 'https://dn-react-house-marketplace.vercel.app/',
-    github:
-      'https://github.com/dan-nitu/house-marketplace-react-front-to-back-2022',
+    screenshot: elegantContext,
+    demo: '',
+    github: '',
   },
   {
     id: 12,
-    title: 'House Marketplace',
+    title: 'Project Management App',
     technology: 'react',
-    screenshot: houseMarketplace,
-    demo: 'https://dn-react-house-marketplace.vercel.app/',
-    github:
-      'https://github.com/dan-nitu/house-marketplace-react-front-to-back-2022',
+    screenshot: projectManagementApp,
+    demo: '',
+    github: '',
   },
   {
     id: 11,
