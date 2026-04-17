@@ -32,8 +32,9 @@ const otherProjects = [
     title: 'The Almost Final Countdown',
     technology: 'react',
     screenshot: theAlmostFinalCountdown,
-    demo: '',
-    github: '',
+    demo: 'https://the-almost-final-countdown-rtcg.vercel.app/',
+    github:
+      'https://github.com/dan-nitu/the-almost-final-countdown-react-the-complete-guide',
   },
   {
     id: 16,
