@@ -64,16 +64,18 @@ const otherProjects = [
     title: 'Elegant Context',
     technology: 'react',
     screenshot: elegantContext,
-    demo: '',
-    github: '',
+    demo: 'https://elegant-context-rtcg.vercel.app/',
+    github:
+      'https://github.com/dan-nitu/elegant-context-react-the-complete-guide',
   },
   {
     id: 12,
     title: 'Project Management App',
     technology: 'react',
     screenshot: projectManagementApp,
-    demo: '',
-    github: '',
+    demo: 'https://project-management-app-rtcg.vercel.app/',
+    github:
+      'https://github.com/dan-nitu/project-management-app-react-the-complete-guide',
   },
   {
     id: 11,
