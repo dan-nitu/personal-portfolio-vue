@@ -24,8 +24,8 @@ const otherProjects = [
     title: 'Tic Tac Toe',
     technology: 'react',
     screenshot: ticTacToe,
-    demo: '',
-    github: '',
+    demo: 'https://tic-tac-toe-rtcg.vercel.app/',
+    github: 'https://github.com/dan-nitu/tic-tac-toe-react-the-complete-guide',
   },
   {
     id: 17,
