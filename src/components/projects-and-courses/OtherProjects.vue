@@ -13,7 +13,15 @@ import booklist from '@/assets/images/projects/booklist.PNG';
 
 const otherProjects = [
   {
-    id: 1,
+    id: 18,
+    title: 'Tic Tac Toe',
+    technology: 'react',
+    screenshot: ticTacToe,
+    demo: '',
+    github: '',
+  },
+  {
+    id: 17,
     title: 'House Marketplace',
     technology: 'react',
     screenshot: houseMarketplace,
@@ -22,7 +30,61 @@ const otherProjects = [
       'https://github.com/dan-nitu/house-marketplace-react-front-to-back-2022',
   },
   {
-    id: 2,
+    id: 16,
+    title: 'House Marketplace',
+    technology: 'react',
+    screenshot: houseMarketplace,
+    demo: 'https://dn-react-house-marketplace.vercel.app/',
+    github:
+      'https://github.com/dan-nitu/house-marketplace-react-front-to-back-2022',
+  },
+  {
+    id: 15,
+    title: 'House Marketplace',
+    technology: 'react',
+    screenshot: houseMarketplace,
+    demo: 'https://dn-react-house-marketplace.vercel.app/',
+    github:
+      'https://github.com/dan-nitu/house-marketplace-react-front-to-back-2022',
+  },
+  {
+    id: 14,
+    title: 'House Marketplace',
+    technology: 'react',
+    screenshot: houseMarketplace,
+    demo: 'https://dn-react-house-marketplace.vercel.app/',
+    github:
+      'https://github.com/dan-nitu/house-marketplace-react-front-to-back-2022',
+  },
+  {
+    id: 13,
+    title: 'House Marketplace',
+    technology: 'react',
+    screenshot: houseMarketplace,
+    demo: 'https://dn-react-house-marketplace.vercel.app/',
+    github:
+      'https://github.com/dan-nitu/house-marketplace-react-front-to-back-2022',
+  },
+  {
+    id: 12,
+    title: 'House Marketplace',
+    technology: 'react',
+    screenshot: houseMarketplace,
+    demo: 'https://dn-react-house-marketplace.vercel.app/',
+    github:
+      'https://github.com/dan-nitu/house-marketplace-react-front-to-back-2022',
+  },
+  {
+    id: 11,
+    title: 'House Marketplace',
+    technology: 'react',
+    screenshot: houseMarketplace,
+    demo: 'https://dn-react-house-marketplace.vercel.app/',
+    github:
+      'https://github.com/dan-nitu/house-marketplace-react-front-to-back-2022',
+  },
+  {
+    id: 10,
     title: 'Github Finder',
     technology: 'react',
     screenshot: githubFinder,
@@ -31,7 +93,7 @@ const otherProjects = [
       'https://github.com/dan-nitu/github-finder-react-front-to-back-2022',
   },
   {
-    id: 3,
+    id: 9,
     title: 'WeatherJS',
     technology: 'javascript',
     screenshot: weatherJS,
@@ -39,7 +101,7 @@ const otherProjects = [
     github: 'https://github.com/dan-nitu/weatherjs-mjsftb',
   },
   {
-    id: 4,
+    id: 8,
     title: 'Userform',
     technology: 'javascript',
     screenshot: userForm,
@@ -47,7 +109,7 @@ const otherProjects = [
     github: 'https://github.com/dan-nitu/userform-mjsftb',
   },
   {
-    id: 5,
+    id: 7,
     title: 'Tracalorie',
     technology: 'javascript',
     screenshot: tracalorie,
@@ -63,7 +125,7 @@ const otherProjects = [
     github: 'https://github.com/dan-nitu/tasklist-mjsftb',
   },
   {
-    id: 7,
+    id: 5,
     title: 'Profile Scroller',
     technology: 'javascript',
     screenshot: profileScroller,
@@ -71,7 +133,7 @@ const otherProjects = [
     github: 'https://github.com/dan-nitu/profilescroller-mjsftb',
   },
   {
-    id: 8,
+    id: 4,
     title: 'Number Guesser',
     technology: 'javascript',
     screenshot: numberGuesser,
@@ -79,7 +141,7 @@ const otherProjects = [
     github: 'https://github.com/dan-nitu/numberguesser-mjsftb',
   },
   {
-    id: 9,
+    id: 3,
     title: 'Loan Calculator',
     technology: 'javascript',
     screenshot: loanCalculator,
@@ -87,7 +149,7 @@ const otherProjects = [
     github: 'https://github.com/dan-nitu/loancalculator-mjsftb',
   },
   {
-    id: 10,
+    id: 2,
     title: 'Chuck Norris Jokes',
     technology: 'javascript',
     screenshot: chuckNorrisJokes,
@@ -95,7 +157,7 @@ const otherProjects = [
     github: 'https://github.com/dan-nitu/chucknorrisjokes-mjsftb',
   },
   {
-    id: 11,
+    id: 1,
     title: 'Booklist',
     technology: 'javascript',
     screenshot: booklist,
