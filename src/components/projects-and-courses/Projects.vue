@@ -1,4 +1,5 @@
 <script setup>
+import entertainmentWebApp from '@/assets/images/projects/entertainment-web-app.png';
 import manageLandingPage from '@/assets/images/projects/manage-landing-page.png';
 import hangmanGame from '@/assets/images/projects/hangman-game.png';
 import healthyRecipeFinder from '@/assets/images/projects/healthy-recipe-finder.png';
@@ -10,7 +11,16 @@ import weatherApp from '@/assets/images/projects/weather-app.png';
 
 const projects = [
   {
-    id: 7,
+    id: 9,
+    title: 'Entertainment Web App',
+    description: '(A Frontend Mentor Premium Challenge)',
+    technology: 'react',
+    screenshot: entertainmentWebApp,
+    demo: 'https://entertainment-web-app-frontend-mentor.vercel.app/',
+    github: 'https://github.com/dan-nitu/entertainment-web-app',
+  },
+  {
+    id: 8,
     title: 'Manage Landing Page',
     description: '(A Frontend Mentor Challenge)',
     technology: 'scss',
